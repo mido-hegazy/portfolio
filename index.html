@@ -133,7 +133,7 @@
       gap: 0.75rem;
     }
 
-    .hero-eyebrow::before {
+    .hero-eyebrow:first-child::before {
       content: '';
       display: block;
       width: 40px;
@@ -720,122 +720,214 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-grid-bg"></div>
-    <div class="hero-glow"></div>
-    <div class="hero-content">
-      <div class="hero-eyebrow">Frontend Developer</div>
-      <h1>Mohamed<br><span class="name-accent">Hegazy</span></h1>
-      <p class="hero-sub">
-        I'm a passionate Front End developer with experience developing web applications with Vue.js. I am
-        strongly interested in learning new technologies and implementing them in my projects. I'm a
-        self-motivated,disciplined and hardworking individual who is always ready to learn new things and work in a
-        team.
-      </p>
-      <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="#contact" class="btn btn-outline">Get In Touch</a>
-        <a href="Mohamed_Reda_Frontend_Developer_CV.pdf" class="btn btn-outline btn-download">Download CV
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-            </path>
-          </svg>
-        </a>
-      </div>
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      Frontend Developer
     </div>
-  </section>
+    <div class="hero-eyebrow">
+      React.js • Vue.js • Shopify
+    </div>
+
+    <h1>
+      Mohamed<br>
+      <span class="name-accent">Hegazy</span>
+    </h1>
+
+    <p class="hero-sub">
+      Frontend Developer with 5+ years of experience building responsive,
+      scalable, and user-friendly web applications using modern frontend
+      technologies. Specialized in React.js, Vue.js, and Shopify Theme
+      Development, creating reusable components, integrating APIs, and
+      delivering high-quality digital experiences.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">
+        View My Work
+      </a>
+
+      <a href="#contact" class="btn btn-outline">
+        Get In Touch
+      </a>
+
+      <a href="Mohamed_Reda_Frontend_Developer_CV.pdf" 
+         class="btn btn-outline btn-download">
+        Download CV
+
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2"
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+          </path>
+        </svg>
+
+      </a>
+    </div>
+  </div>
+</section>
 
   <!-- ABOUT -->
-  <section id="about">
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <div class="section-label">About Me</div>
-        <h2>Get to know the person<br>behind the code</h2>
-        <p>I'm a <span>frontend developer / Vue.js Developer</span> based in Egypt, With experience building responsive
-          and scalable web applications using Vue.js and modern
-          frontend technologies.</p>
-        <p>Previously worked as a UI/Web Designer with experience in designing websites and
-          applications.</p>
-        <p>Experienced in developing webview-based mobile applications, educational platforms, booking systems,
-          restaurant
-          applications,
-          and corporate websites.</p>
-        <div class="about-stats">
-          <div class="stat-card">
-            <div class="stat-num">5+</div>
-            <div class="stat-label">Years of experience</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-num">20+</div>
-            <div class="stat-label">Projects Completed</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-num">2+</div>
-            <div class="stat-label">Companies</div>
-          </div>
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text reveal visible">
+      <div class="section-label">About Me</div>
+
+      <h2>
+        Building modern<br>
+        digital experiences
+      </h2>
+
+      <p>
+        I'm a <span>Frontend Developer</span> with 5+ years of experience
+        building responsive, scalable, and user-friendly web applications
+        using modern frontend technologies.
+      </p>
+
+      <p>
+        My experience includes developing applications with 
+        <span>Vue.js</span>, building projects with 
+        <span>React.js</span>, and customizing Shopify themes using
+        <span>Liquid</span>, HTML, CSS, and JavaScript.
+      </p>
+
+      
+      <p>
+        I have worked on web applications, WebView mobile projects,
+        educational platforms, booking systems, restaurant management
+        systems, and corporate websites. I focus on creating reusable
+        components, integrating APIs, and delivering clean and responsive
+        user interfaces.
+      </p><p>My UI/UX background helps me create interfaces that are not only functional but also visually engaging.</p>
+
+      <div class="about-stats">
+
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years of experience</div>
         </div>
-      </div>
-      <div class="about-visual reveal" style="transition-delay:0.15s">
-        <div class="avatar-frame">
-          <div class="avatar-corner tl"></div>
-          <div class="avatar-corner br"></div>
-          <span class="avatar-initials">MH</span>
-          <img class="avatar-image" src="avatar.jpg" alt="">
+
+        <div class="stat-card">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Projects Completed</div>
         </div>
+
+        <div class="stat-card">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Companies</div>
+        </div>
+
       </div>
     </div>
-  </section>
+
+    <div class="about-visual reveal visible" style="transition-delay:0.15s">
+      <div class="avatar-frame">
+
+        <div class="avatar-corner tl"></div>
+        <div class="avatar-corner br"></div>
+
+        <span class="avatar-initials">MH</span>
+
+        <img class="avatar-image" src="avatar.jpg" alt="Mohamed Hegazy">
+        
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- SKILLS -->
-  <section id="skills">
-    <div class="skills-container">
-      <div class="section-label">Toolkit</div>
-      <h2>What I work with</h2>
-      <div class="skill-group reveal">
-        <div class="skill-group-title">// Core</div>
-        <div class="skill-tags">
-          <span class="skill-tag primary">HTML5</span>
-          <span class="skill-tag primary">CSS3</span>
-          <span class="skill-tag primary">JavaScript (ES6+)</span>
-          <span class="skill-tag primary">jQuery</span>
-        </div>
-      </div>
-      <div class="skill-group reveal" style="transition-delay:0.1s">
-        <div class="skill-group-title">// Frameworks & Libraries</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Vue.js</span>
-          <span class="skill-tag">Bootstrap</span>
-          <span class="skill-tag">Tailwind CSS</span>
-          <span class="skill-tag">SASS/SCSS</span>
-        </div>
-      </div>
-      <div class="skill-group reveal" style="transition-delay:0.2s">
-        <div class="skill-group-title">// Tools & Workflow</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Git & GitHub</span>
-          <span class="skill-tag">Webpack / Vite</span>
-          <span class="skill-tag">Figma</span>
-          <span class="skill-tag">REST APIs</span>
-          <span class="skill-tag">Axios</span>
-          <span class="skill-tag">Postman</span>
-          <span class="skill-tag">VS Code</span>
-        </div>
-      </div>
-      <div class="skill-group reveal" style="transition-delay:0.3s">
-        <div class="skill-group-title">// Soft Skills</div>
-        <div class="skill-tags">
-          <span class="skill-tag">UI/UX Sensibility</span>
-          <span class="skill-tag">Performance Optimization</span>
-          <span class="skill-tag">Responsive Design</span>
-          <span class="skill-tag">Web Accessibility</span>
-          <span class="skill-tag">Code Review</span>
-        </div>
+ <section id="skills">
+  <div class="skills-container">
+
+    <div class="section-label">Toolkit</div>
+    <h2>Technologies I work with</h2>
+
+
+    <div class="skill-group reveal visible">
+      <div class="skill-group-title">// Frontend Core</div>
+
+      <div class="skill-tags">
+        <span class="skill-tag primary">HTML5</span>
+        <span class="skill-tag primary">CSS3</span>
+        <span class="skill-tag primary">JavaScript (ES6+)</span>
+        
+        <span class="skill-tag primary">SCSS</span>
       </div>
     </div>
-  </section>
 
+
+    <div class="skill-group reveal visible" style="transition-delay:0.1s">
+      <div class="skill-group-title">// Frameworks &amp; Libraries</div>
+
+      <div class="skill-tags">
+        <span class="skill-tag primary">React.js</span>
+        <span class="skill-tag primary">React Hooks</span>
+        <span class="skill-tag">React Router</span>
+        <span class="skill-tag primary">Vue.js</span>
+        <span class="skill-tag">Vue Router</span>
+        <span class="skill-tag">Vuex</span>
+        <span class="skill-tag">Axios</span>
+        <span class="skill-tag">i18next</span>
+      </div>
+    </div>
+
+
+    <div class="skill-group reveal visible" style="transition-delay:0.2s">
+      <div class="skill-group-title">// Shopify Development</div>
+
+      <div class="skill-tags">
+        <span class="skill-tag primary">Shopify Liquid</span>
+        <span class="skill-tag primary">Theme Development</span>
+        <span class="skill-tag">Theme Customization</span>
+        <span class="skill-tag">Online Store 2.0</span>
+        <span class="skill-tag">Custom Sections</span>
+        <span class="skill-tag">Theme Schema</span>
+      </div>
+    </div>
+
+
+    <div class="skill-group reveal visible" style="transition-delay:0.3s">
+      <div class="skill-group-title">// Tools &amp; Workflow</div>
+
+      <div class="skill-tags">
+        <span class="skill-tag">Git &amp; GitHub</span>
+        <span class="skill-tag">Vite</span>
+        <span class="skill-tag">Webpack</span>
+        <span class="skill-tag">npm</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">VS Code</span>
+      <span class="skill-tag">Bootstrap
+</span><span class="skill-tag">Tailwind CSS
+
+</span><span class="skill-tag">Figma
+
+</span></div>
+    </div>
+
+
+    <div class="skill-group reveal visible" style="transition-delay:0.4s">
+      <div class="skill-group-title">// UI &amp; Development Practices</div>
+
+      <div class="skill-tags">
+        <span class="skill-tag">Responsive Design</span>
+        <span class="skill-tag">UI/UX Design</span>
+        <span class="skill-tag">Component Architecture</span>
+        <span class="skill-tag">Performance Optimization</span>
+        <span class="skill-tag">Cross-browser Compatibility</span>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+  
   <!-- PROJECTS -->
   <section id="projects">
     <div class="section-label">Work</div>
